@@ -1,0 +1,210 @@
+universe = vanilla
+request_cpus = 1
+request_memory = 10G
+request_disk = 1G
+initialdir = /data/project/avg_vs_pred_stack/code
+executable = /data/project/avg_vs_pred_stack/util/R-4.1.0/bin/Rscript
+transfer_executable = false
+arguments = "--max-ppsize=500000 brainwise_level1.R glmnet 1000Gehirne "
+output = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne.$(Cluster).$(Process).out
+error = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne.$(Cluster).$(Process).err
+log = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne.$(Cluster).$(Process).log
+queue
+###
+
+universe = vanilla
+request_cpus = 1
+request_memory = 10G
+request_disk = 1G
+initialdir = /data/project/avg_vs_pred_stack/code
+executable = /data/project/avg_vs_pred_stack/util/R-4.1.0/bin/Rscript
+transfer_executable = false
+arguments = "--max-ppsize=500000 brainwise_level1.R glmnet CamCAN "
+output = /data/project/avg_vs_pred_stack/code/log/level1.CamCAN.$(Cluster).$(Process).out
+error = /data/project/avg_vs_pred_stack/code/log/level1.CamCAN.$(Cluster).$(Process).err
+log = /data/project/avg_vs_pred_stack/code/log/level1.CamCAN.$(Cluster).$(Process).log
+queue
+###
+
+universe = vanilla
+request_cpus = 1
+request_memory = 10G
+request_disk = 1G
+initialdir = /data/project/avg_vs_pred_stack/code
+executable = /data/project/avg_vs_pred_stack/util/R-4.1.0/bin/Rscript
+transfer_executable = false
+arguments = "--max-ppsize=500000 brainwise_level1.R glmnet 1000Gehirne-CamCAN "
+output = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-CamCAN.$(Cluster).$(Process).out
+error = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-CamCAN.$(Cluster).$(Process).err
+log = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-CamCAN.$(Cluster).$(Process).log
+queue
+###
+
+universe = vanilla
+request_cpus = 1
+request_memory = 10G
+request_disk = 1G
+initialdir = /data/project/avg_vs_pred_stack/code
+executable = /data/project/avg_vs_pred_stack/util/R-4.1.0/bin/Rscript
+transfer_executable = false
+arguments = "--max-ppsize=500000 brainwise_level1.R glmnet eNKI "
+output = /data/project/avg_vs_pred_stack/code/log/level1.eNKI.$(Cluster).$(Process).out
+error = /data/project/avg_vs_pred_stack/code/log/level1.eNKI.$(Cluster).$(Process).err
+log = /data/project/avg_vs_pred_stack/code/log/level1.eNKI.$(Cluster).$(Process).log
+queue
+###
+
+universe = vanilla
+request_cpus = 1
+request_memory = 10G
+request_disk = 1G
+initialdir = /data/project/avg_vs_pred_stack/code
+executable = /data/project/avg_vs_pred_stack/util/R-4.1.0/bin/Rscript
+transfer_executable = false
+arguments = "--max-ppsize=500000 brainwise_level1.R glmnet 1000Gehirne-eNKI "
+output = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-eNKI.$(Cluster).$(Process).out
+error = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-eNKI.$(Cluster).$(Process).err
+log = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-eNKI.$(Cluster).$(Process).log
+queue
+###
+
+universe = vanilla
+request_cpus = 1
+request_memory = 10G
+request_disk = 1G
+initialdir = /data/project/avg_vs_pred_stack/code
+executable = /data/project/avg_vs_pred_stack/util/R-4.1.0/bin/Rscript
+transfer_executable = false
+arguments = "--max-ppsize=500000 brainwise_level1.R glmnet CamCAN-eNKI "
+output = /data/project/avg_vs_pred_stack/code/log/level1.CamCAN-eNKI.$(Cluster).$(Process).out
+error = /data/project/avg_vs_pred_stack/code/log/level1.CamCAN-eNKI.$(Cluster).$(Process).err
+log = /data/project/avg_vs_pred_stack/code/log/level1.CamCAN-eNKI.$(Cluster).$(Process).log
+queue
+###
+
+universe = vanilla
+request_cpus = 1
+request_memory = 10G
+request_disk = 1G
+initialdir = /data/project/avg_vs_pred_stack/code
+executable = /data/project/avg_vs_pred_stack/util/R-4.1.0/bin/Rscript
+transfer_executable = false
+arguments = "--max-ppsize=500000 brainwise_level1.R glmnet 1000Gehirne-CamCAN-eNKI "
+output = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-CamCAN-eNKI.$(Cluster).$(Process).out
+error = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-CamCAN-eNKI.$(Cluster).$(Process).err
+log = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-CamCAN-eNKI.$(Cluster).$(Process).log
+queue
+###
+
+universe = vanilla
+request_cpus = 1
+request_memory = 10G
+request_disk = 1G
+initialdir = /data/project/avg_vs_pred_stack/code
+executable = /data/project/avg_vs_pred_stack/util/R-4.1.0/bin/Rscript
+transfer_executable = false
+arguments = "--max-ppsize=500000 brainwise_level1.R glmnet IXI "
+output = /data/project/avg_vs_pred_stack/code/log/level1.IXI.$(Cluster).$(Process).out
+error = /data/project/avg_vs_pred_stack/code/log/level1.IXI.$(Cluster).$(Process).err
+log = /data/project/avg_vs_pred_stack/code/log/level1.IXI.$(Cluster).$(Process).log
+queue
+###
+
+universe = vanilla
+request_cpus = 1
+request_memory = 10G
+request_disk = 1G
+initialdir = /data/project/avg_vs_pred_stack/code
+executable = /data/project/avg_vs_pred_stack/util/R-4.1.0/bin/Rscript
+transfer_executable = false
+arguments = "--max-ppsize=500000 brainwise_level1.R glmnet 1000Gehirne-IXI "
+output = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-IXI.$(Cluster).$(Process).out
+error = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-IXI.$(Cluster).$(Process).err
+log = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-IXI.$(Cluster).$(Process).log
+queue
+###
+
+universe = vanilla
+request_cpus = 1
+request_memory = 10G
+request_disk = 1G
+initialdir = /data/project/avg_vs_pred_stack/code
+executable = /data/project/avg_vs_pred_stack/util/R-4.1.0/bin/Rscript
+transfer_executable = false
+arguments = "--max-ppsize=500000 brainwise_level1.R glmnet CamCAN-IXI "
+output = /data/project/avg_vs_pred_stack/code/log/level1.CamCAN-IXI.$(Cluster).$(Process).out
+error = /data/project/avg_vs_pred_stack/code/log/level1.CamCAN-IXI.$(Cluster).$(Process).err
+log = /data/project/avg_vs_pred_stack/code/log/level1.CamCAN-IXI.$(Cluster).$(Process).log
+queue
+###
+
+universe = vanilla
+request_cpus = 1
+request_memory = 10G
+request_disk = 1G
+initialdir = /data/project/avg_vs_pred_stack/code
+executable = /data/project/avg_vs_pred_stack/util/R-4.1.0/bin/Rscript
+transfer_executable = false
+arguments = "--max-ppsize=500000 brainwise_level1.R glmnet 1000Gehirne-CamCAN-IXI "
+output = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-CamCAN-IXI.$(Cluster).$(Process).out
+error = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-CamCAN-IXI.$(Cluster).$(Process).err
+log = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-CamCAN-IXI.$(Cluster).$(Process).log
+queue
+###
+
+universe = vanilla
+request_cpus = 1
+request_memory = 10G
+request_disk = 1G
+initialdir = /data/project/avg_vs_pred_stack/code
+executable = /data/project/avg_vs_pred_stack/util/R-4.1.0/bin/Rscript
+transfer_executable = false
+arguments = "--max-ppsize=500000 brainwise_level1.R glmnet eNKI-IXI "
+output = /data/project/avg_vs_pred_stack/code/log/level1.eNKI-IXI.$(Cluster).$(Process).out
+error = /data/project/avg_vs_pred_stack/code/log/level1.eNKI-IXI.$(Cluster).$(Process).err
+log = /data/project/avg_vs_pred_stack/code/log/level1.eNKI-IXI.$(Cluster).$(Process).log
+queue
+###
+
+universe = vanilla
+request_cpus = 1
+request_memory = 10G
+request_disk = 1G
+initialdir = /data/project/avg_vs_pred_stack/code
+executable = /data/project/avg_vs_pred_stack/util/R-4.1.0/bin/Rscript
+transfer_executable = false
+arguments = "--max-ppsize=500000 brainwise_level1.R glmnet 1000Gehirne-eNKI-IXI "
+output = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-eNKI-IXI.$(Cluster).$(Process).out
+error = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-eNKI-IXI.$(Cluster).$(Process).err
+log = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-eNKI-IXI.$(Cluster).$(Process).log
+queue
+###
+
+universe = vanilla
+request_cpus = 1
+request_memory = 10G
+request_disk = 1G
+initialdir = /data/project/avg_vs_pred_stack/code
+executable = /data/project/avg_vs_pred_stack/util/R-4.1.0/bin/Rscript
+transfer_executable = false
+arguments = "--max-ppsize=500000 brainwise_level1.R glmnet CamCAN-eNKI-IXI "
+output = /data/project/avg_vs_pred_stack/code/log/level1.CamCAN-eNKI-IXI.$(Cluster).$(Process).out
+error = /data/project/avg_vs_pred_stack/code/log/level1.CamCAN-eNKI-IXI.$(Cluster).$(Process).err
+log = /data/project/avg_vs_pred_stack/code/log/level1.CamCAN-eNKI-IXI.$(Cluster).$(Process).log
+queue
+###
+
+universe = vanilla
+request_cpus = 1
+request_memory = 10G
+request_disk = 1G
+initialdir = /data/project/avg_vs_pred_stack/code
+executable = /data/project/avg_vs_pred_stack/util/R-4.1.0/bin/Rscript
+transfer_executable = false
+arguments = "--max-ppsize=500000 brainwise_level1.R glmnet 1000Gehirne-CamCAN-eNKI-IXI "
+output = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-CamCAN-eNKI-IXI.$(Cluster).$(Process).out
+error = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-CamCAN-eNKI-IXI.$(Cluster).$(Process).err
+log = /data/project/avg_vs_pred_stack/code/log/level1.1000Gehirne-CamCAN-eNKI-IXI.$(Cluster).$(Process).log
+queue
+###
+
