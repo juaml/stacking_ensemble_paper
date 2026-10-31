@@ -52,6 +52,7 @@ respective data providers.
 |---|---|
 | `parcelwise_level0.R` | Trains a level-0 model (default: `glmnet`) for one parcel on one dataset or combination of datasets. |
 | `brainwise_multisite.R` | Trains level-1 models across sites and predicts new data. |
+| `predict_newsite.R` | Command-line entry point used by `submit_new_predictions.sh`: predicts a test dataset with models trained on the given datasets (comma-separated), via `brainwise_multisite`. |
 | `run_brainwise_multisite.R` | Runs `brainwise_multisite` for all train/test combinations of the four datasets. |
 | `util.R` | Shared helper functions (cross-validation, metrics: MAE, R², correlation, bias, Wasserstein distance). |
 
