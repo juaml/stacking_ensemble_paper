@@ -93,8 +93,7 @@ cluster setup and need to be adapted.
 
 ## Requirements
 
-- **R** (4.1.0) with `caret`, `glmnet`, `tidyverse`, `gtools`, `pbapply`, `transport`, `txtplot`, and
-  [`CovBat`](https://github.com/andy1764/CovBat_Harmonization) (loaded by `brainwise_level1.R`)
+- **R** (4.1.0) with `caret`, `glmnet`, `tidyverse`, `gtools`, `pbapply`, `transport`
 - **Python 3** with `pandas`, `numpy`, `scipy`, `scikit-learn`, `julearn`, `nibabel`,
   `matplotlib`, `seaborn`, `rpy2`
 

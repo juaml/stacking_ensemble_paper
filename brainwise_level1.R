@@ -3,8 +3,6 @@ suppressPackageStartupMessages({
     library(tidyverse, quietly = T)
     library(tools)
     library(gtools)
-    library(txtplot)
-    library(CovBat)
 })
 
 source('util.R')
