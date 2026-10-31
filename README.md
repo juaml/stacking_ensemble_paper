@@ -51,6 +51,7 @@ respective data providers.
 | File | Description |
 |---|---|
 | `parcelwise_level0.R` | Trains a level-0 model (default: `glmnet`) for one parcel on one dataset or combination of datasets. |
+| `brainwise_level1.R` | Trains the level-1 models for one dataset (or pooled datasets) from the cached level-0 predictions, plus the regional mean GMV baseline. |
 | `brainwise_multisite.R` | Trains level-1 models across sites and predicts new data. |
 | `predict_newsite.R` | Command-line entry point used by `submit_new_predictions.sh`: predicts a test dataset with models trained on the given datasets (comma-separated), via `brainwise_multisite`. |
 | `run_brainwise_multisite.R` | Runs `brainwise_multisite` for all train/test combinations of the four datasets. |
@@ -92,7 +93,8 @@ cluster setup and need to be adapted.
 
 ## Requirements
 
-- **R** (4.1.0) with `caret`, `glmnet`, `tidyverse`, `gtools`, `pbapply`, `transport`
+- **R** (4.1.0) with `caret`, `glmnet`, `tidyverse`, `gtools`, `pbapply`, `transport`, `txtplot`, and
+  [`CovBat`](https://github.com/andy1764/CovBat_Harmonization) (loaded by `brainwise_level1.R`)
 - **Python 3** with `pandas`, `numpy`, `scipy`, `scikit-learn`, `julearn`, `nibabel`,
   `matplotlib`, `seaborn`, `rpy2`
 
